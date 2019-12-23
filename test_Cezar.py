@@ -4,11 +4,11 @@ import Cezar
 
 class TestCezar(unittest.TestCase):
 
-    def TestKodowanie(self):
+    def test_kodowanie(self):
         self.assertEqual(Cezar.cezar('abc', 3), 'def')
 
-    def TestOdkodowywanie(self):
+    def test_odkodowywanie(self):
         self.assertEqual(Cezar.cezar('def', -3), 'abc')
 
-    def Testaaa(self):
+    def test_1(self):
         self.assertEqual(3, 3)
